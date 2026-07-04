@@ -1,0 +1,6 @@
+{
+  "name": "Mamtas Beauty Parlour",
+  "description": "Premium Beauty & Family Salon in Kolkata",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}
