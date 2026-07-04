@@ -7,14 +7,8 @@ import { Gallery } from './components/Gallery';
 import { Testimonials } from './components/Testimonials';
 import { Appointment } from './components/Appointment';
 import { Footer } from './components/Footer';
-import { initAuth } from './lib/auth';
 
 export default function App() {
-  React.useEffect(() => {
-    const unsubscribe = initAuth();
-    return () => unsubscribe();
-  }, []);
-
   return (
     <div className="font-poppins bg-[#FFF9F8] min-h-screen text-[#2C2C2C] selection:bg-[#FCE7EF] selection:text-[#C88A8A]">
       <Navbar />
